@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.tim.Etkinlik_icerik"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+        >
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Android ve Firebase Etkinliği"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarih:
+25 Nisan 2017, Salı - 28 Nisan 2017, Cuma
+Son Başvuru Tarihi: 24 Nisan 2017, Pazartesi"
+            android:textStyle="bold"
+            android:textColor="#58543d"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Karabük Üniversitesi’nde Android ve Firebase ile Mobil Uygulama Geliştirme Eğitimi gerçekleştirilecektir.
+
+Etkinlik sonunda her katılımcının bir Android Uygulama geliştirmesi ve Google Play hesabına atması amaçlanmaktadır.
+
+Ön Koşul :
+
+Etkinlik sadece kadınlara özeldir.
+
+Etkinliğe katılmak ve başvuru formunu görüntüleyebilmek için Android-101 eğitimin başarı belgesini almanız gerekmektedir.
+
+Etkinlik Yeri: Karabük Üniversitesi Mühendislik Fakültesi Kat1 Toplantı Odasında gerçekleştirilecektir.
+
+Etkinlik Saati: Her gün 17:00-21:00 arası.
+
+Eğitmenler : Geleceği Yazanlar Gönüllü Eğitmeni Elif Nur İspirli ve Hasibe Zafer"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/katil_buton"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="KATIL" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
