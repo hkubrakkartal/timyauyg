@@ -8,4 +8,8 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_etki">Etk</string>
     <string name="title_activity_etkinlikler">Etkinlikler</string>
+    <string name="title_activity_fragment">Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
