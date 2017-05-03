@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.admin.tim.Etkinlik_icerik3">
+    tools:context="com.example.admin.tim.Etkinlik_icerik4">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,9 +18,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_gravity="center"
-            android:text="JAVA Etkinliği"
-            android:textStyle="bold"
+            android:text="PHP Etkinliği"
             android:gravity="center"
+            android:textStyle="bold"
             android:textColor="#000"
             android:textSize="25dp"/>
         <TextView
@@ -27,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tarih:
-25 Nisan 2017, Salı - 28 Nisan 2017, Cuma
+25 Mayıs 2017, Salı - 28 Nisan 2017, Cuma
 Son Başvuru Tarihi: 24 Nisan 2017, Pazartesi"
             android:textStyle="bold"
             android:layout_marginTop="10dp"
@@ -38,7 +39,8 @@ Son Başvuru Tarihi: 24 Nisan 2017, Pazartesi"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Karabük Üniversitesi’nde Java Eğitimi gerçekleştirilecektir."
+            android:text="Karabük Üniversitesi’nde PHP Eğitimi gerçekleştirilecektir."
+            android:textColor="#58543d"
             android:textStyle="bold"
             android:textSize="20dp" />
         <TextView
@@ -46,11 +48,12 @@ Son Başvuru Tarihi: 24 Nisan 2017, Pazartesi"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Eğitmenler: Elif Nur İspirli"
+            android:text="Eğitmenler: Elif Kantar"
+            android:textColor="#58543d"
             android:textStyle="bold"
             android:textSize="20dp" />
         <Button
-            android:id="@+id/javaBtn"
+            android:id="@+id/phpBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -60,5 +63,4 @@ Son Başvuru Tarihi: 24 Nisan 2017, Pazartesi"
             android:text="KATIL" />
 
     </LinearLayout>
-
 </LinearLayout>

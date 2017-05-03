@@ -4,61 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.admin.tim.Etkinlik_icerik3">
+    tools:context="com.example.admin.tim.Etkinlik_icerik6">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="30dp"
-        >
+        android:layout_margin="30dp">
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:text="Adobe Photoshop Etkinliği"
             android:layout_gravity="center"
-            android:text="JAVA Etkinliği"
-            android:textStyle="bold"
             android:gravity="center"
+            android:textStyle="bold"
             android:textColor="#000"
-            android:textSize="25dp"/>
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"/>
         <TextView
             android:id="@+id/textView2"
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tarih:
 25 Nisan 2017, Salı - 28 Nisan 2017, Cuma
 Son Başvuru Tarihi: 24 Nisan 2017, Pazartesi"
             android:textStyle="bold"
-            android:layout_marginTop="10dp"
             android:textColor="#58543d"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
         <TextView
             android:id="@+id/textView4"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Karabük Üniversitesi’nde Java Eğitimi gerçekleştirilecektir."
+            android:text="Karabük Üniversitesi’nde Adobe Photoshop Eğitimi gerçekleştirilecektir."
             android:textStyle="bold"
-            android:textSize="20dp" />
+            android:textColor="#58543d"
+            android:textSize="20sp" />
         <TextView
-            android:id="@+id/textView6"
-            android:layout_marginTop="10dp"
+            android:id="@+id/textView5"
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Eğitmenler: Elif Nur İspirli"
+            android:textColor="#58543d"
+            android:text="Eğitmenler: Sevgi Gündoğdu"
             android:textStyle="bold"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
         <Button
-            android:id="@+id/javaBtn"
+            android:id="@+id/adobeBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:background="@drawable/buton_tasarim"
+            android:background="@drawable/katil_buton"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:text="KATIL" />
-
-    </LinearLayout>
-
+</LinearLayout>
 </LinearLayout>

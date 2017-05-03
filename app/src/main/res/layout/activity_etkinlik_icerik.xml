@@ -7,13 +7,11 @@
     tools:context="com.example.admin.tim.Etkinlik_icerik"
     android:baselineAligned="false"
     android:orientation="vertical">
-
     <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_margin="30dp"
-        >
+    android:layout_margin="30dp">
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
@@ -21,10 +19,11 @@
             android:layout_weight="1"
             android:text="Android ve Firebase Etkinliği"
             android:layout_gravity="center"
+            android:gravity="center"
             android:textStyle="bold"
             android:textColor="#000"
             android:layout_marginTop="10dp"
-            android:textSize="25dp"/>
+            android:textSize="25sp"/>
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
@@ -34,31 +33,27 @@
 Son Başvuru Tarihi: 24 Nisan 2017, Pazartesi"
             android:textStyle="bold"
             android:textColor="#58543d"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
         <TextView
             android:id="@+id/textView4"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Karabük Üniversitesi’nde Android ve Firebase ile Mobil Uygulama Geliştirme Eğitimi gerçekleştirilecektir.
-
-Etkinlik sonunda her katılımcının bir Android Uygulama geliştirmesi ve Google Play hesabına atması amaçlanmaktadır.
-
-Ön Koşul :
-
-Etkinlik sadece kadınlara özeldir.
-
-Etkinliğe katılmak ve başvuru formunu görüntüleyebilmek için Android-101 eğitimin başarı belgesini almanız gerekmektedir.
-
-Etkinlik Yeri: Karabük Üniversitesi Mühendislik Fakültesi Kat1 Toplantı Odasında gerçekleştirilecektir.
-
-Etkinlik Saati: Her gün 17:00-21:00 arası.
-
-Eğitmenler : Geleceği Yazanlar Gönüllü Eğitmeni Elif Nur İspirli ve Hasibe Zafer"
+            android:text="Karabük Üniversitesi’nde Android ve Firebase ile Mobil Uygulama Geliştirme Eğitimi gerçekleştirilecektir."
             android:textStyle="bold"
-            android:textSize="20dp" />
+            android:textColor="#58543d"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#58543d"
+            android:text="Eğitmenler: Hasibe Zafer ve Elif Nur İspirli"
+            android:textStyle="bold"
+            android:textSize="20sp" />
         <Button
-            android:id="@+id/button"
+            android:id="@+id/androidBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -68,6 +63,4 @@ Eğitmenler : Geleceği Yazanlar Gönüllü Eğitmeni Elif Nur İspirli ve Hasib
             android:text="KATIL" />
 
     </LinearLayout>
-
-
 </LinearLayout>

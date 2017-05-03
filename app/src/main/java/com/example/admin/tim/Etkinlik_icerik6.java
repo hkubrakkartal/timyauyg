@@ -5,13 +5,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Etkinlik_icerik2 extends AppCompatActivity implements View.OnClickListener {
+public class Etkinlik_icerik6 extends AppCompatActivity implements View.OnClickListener{
     Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_etkinlik_icerik2);
-        btn=(Button)findViewById(R.id.scratchBtn);
+        setContentView(R.layout.activity_etkinlik_icerik6);
+        btn=(Button)findViewById(R.id.adobeBtn);
         btn.setOnClickListener(this);
     }
 
