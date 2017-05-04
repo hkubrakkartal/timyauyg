@@ -57,7 +57,7 @@ Son Başvuru Tarihi: 24 Nisan 2017, Pazartesi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:background="@drawable/buton_tasarim"
+            android:background="@drawable/katil_buton"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:text="KATIL" />

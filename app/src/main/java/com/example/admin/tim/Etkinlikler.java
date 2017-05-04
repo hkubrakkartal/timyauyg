@@ -14,7 +14,6 @@ public class Etkinlikler extends AppCompatActivity implements View.OnClickListen
     Button btn5;
     Button btn6;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +30,6 @@ public class Etkinlikler extends AppCompatActivity implements View.OnClickListen
         btn5.setOnClickListener(this);
         btn6=(Button)findViewById(R.id.button6);
         btn6.setOnClickListener(this);
-
 
     }
 

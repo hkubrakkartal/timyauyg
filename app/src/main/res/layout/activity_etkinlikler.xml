@@ -14,7 +14,7 @@
         android:layout_marginTop="40dp">
         <Button
             android:id="@+id/button1"
-            android:background="#bfb891"
+            android:background="#ff9c00"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Android ve Firebase Etkinliği" />
@@ -22,7 +22,7 @@
         <Button
             android:id="@+id/button2"
             android:layout_marginTop="20dp"
-            android:background="#bfb891"
+            android:background="#ff9c00"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Scratch Etkinliği" />
@@ -30,7 +30,7 @@
         <Button
             android:id="@+id/button3"
             android:layout_marginTop="20dp"
-            android:background="#bfb891"
+            android:background="#ff9c00"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Java Etkinliği" />
@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="#bfb891"
+            android:background="#ff9c00"
             android:text="PHP Etkinliği " />
 
         <Button
@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="#bfb891"
+            android:background="#ff9c00"
             android:text="Python Etkinliği" />
 
         <Button
@@ -55,9 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="#bfb891"
+            android:background="#ff9c00"
             android:text="Adobe Photoshop Etkinliği" />
-
     </LinearLayout>
-
 </LinearLayout>
